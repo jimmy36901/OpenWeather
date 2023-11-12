@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="wrapItem">
+        <select id="search" class="search">
+          <option value="pickOne">--select--</option>
+          <option value="Taipei">Taipei</option>
+          <option value="Taoyuan">Taoyuan</option>
+          <option value="Taichung">Taichung</option>
+          <option value="Kaohsiung">Kaohsiung</option>
+          <option value="Taitung">Taitung</option>
+          <option value="Yilan">Yilan</option>
+        </select>
+        <div class="itemBox">
+          <div class="item" id="itemHTML"></div>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
